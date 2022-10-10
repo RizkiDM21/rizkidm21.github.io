@@ -1,0 +1,58 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizki Dwi M</title>
+    <link rel="stylesheet" type="text/css" href="rzky.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="rzky.js"></script>
+
+</head>
+<body>
+    <div class="bako">
+        <div class="luhur">
+    <h2 style="font-size: 30px; color: black;">Selamat Datang</h2>
+    <p>Saya Rizki Dwi Maureza</p><p>NIM: 41215673</p>  
+        </div>
+        <div class="pentingsekali" align="center">
+            <span class="hpbagus aktif" id="hpbagus_1" id="profile" >My Album</span>
+            <span href="#" class="klik" class="hpbagus" id="hpbagus_3"></span>
+            <div class="gwbae">
+            <div class="tutt">
+        </div></div>
+        </div>
+
+        <div class="gigb" id="cuy_1" style="text-align: center;">
+
+            <h2 class="urgn" style="font-size: 20px;" style="">My Album</h2>  
+
+            <section style="font-size: 16px;">
+
+            <img src="./mgs/foto.jpeg" style="width: 28%">
+            <br>
+<br>
+        <div class="pentingsekali" align="center">
+            <span class="hpbagus" id="hpbagus_2" style="padding: 0;">Tugas</span></div>
+
+
+            </section> 
+            </ul>
+            <span class="lalu"></span>
+        </div>
+
+        <div class="cuy gigb" id="cuy_2" style="padding: 10px; background-color: ivory; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); display: none;">
+            <br>
+            <h2 class="urgn" align="center" style="font-size: 25px;">Tugas</h2>
+            <h2 style="font-size: 16px;" >Project</h2>
+            <ul>
+                <li><a style="color: black;" onclick="alert('Silahkan Klik OK')" href="../p03/tabel.html">P03 HTML Table Sederhana</a></li>
+                <li><a style="color: black;" onclick="alert('Silahkan Klik OK')" href="../p03form-lv1/from.html">P03 Formulir Level #1 Basic HTML Form</a></li>
+                <li><a style="color: black;" onclick="alert('Silahkan Klik OK')" href="../p04css-basic/from.html">P04 Formulir Level #2 Basic-CSS HTML Form</a></li>
+                <li><a style="color: black;" onclick="alert('Silahkan Klik OK')" href="../p05-jquery-delete/index.html">P05 JQuery FadeOut When Delete</a></li>
+                <li><a style="color: black;" onclick="alert('Silahkan Klik OK')" href="../p06-spa-menu/index.html">P06 JQuery Add/Remove Class for SPA Menu</a></li>
+                <br><br>
+                </div>
+
+            </ul>
+        </div>
+    </body>
+</html>

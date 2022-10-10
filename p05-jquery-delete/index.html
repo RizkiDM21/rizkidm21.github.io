@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css-dayu.css">
+  <title>JQuery Delete</title>
+  <style type="text/css">
+  body {
+    background-color: sienna;
+    padding: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .tabel {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .gerak-menuju {
+    background-color: lightblue;
+  }
+  
+  .gerak-menuju:hover {
+    background-color: aquamarine;
+  }
+    h1 {
+    text-align: center;
+  }
+  
+  .menuju{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .menuju:hover {
+    background-color: burlywood;
+  }
+   
+  .bagian-atas {
+    background-color: green;
+  }
+
+  </style>
+</head>
+<body>
+  <h1>The Top 5 Friends</h1>
+  <table align="center">
+    <tr class="bagian-atas">
+      <th class="menuju">No</th>
+      <th class="menuju">Nama</th>
+      <th class="menuju">Alamat</th>
+      <th class="menuju">gerak</th>
+    </tr>
+    <tr id="strip__1" class="strip">
+      <td class="menuju">1</td>
+      <td class="menuju" id="mhsw__1">Arisa</td>
+      <td class="menuju" id="tempat__1">Cirebon</td>
+      <td class="gerak menuju" id="hapus__1">Hapus</td>
+    </tr>
+    <tr id="strip__2" class="strip">
+      <td class="menuju">2</td>
+      <td class="menuju" id="mhsw__2">Fatin</td>
+      <td class="menuju" id="tempat__2">Brebes</td>
+      <td class="gerak menuju" id="hapus__2">Hapus</td>
+    </tr>
+    <tr id="strip__3" class="strip">
+      <td class="menuju">3</td>
+      <td class="menuju" id="mhsw__3">Arya</td>
+      <td class="menuju" id="tempat__3">Cirebon</td>
+      <td class="gerak menuju" id="hapus__3">Hapus</td>
+    </tr>
+    <tr id="strip__4" class="strip">
+      <td class="menuju">4</td>
+      <td class="menuju" id="mhsw__4">Doni</td>
+      <td class="menuju" id="tempat__4">Kuningan</td>
+      <td class="gerak menuju" id="hapus__4">Hapus</td>
+    </tr>
+    <tr id="strip__5" class="strip">
+      <td class="menuju">5</td>
+      <td class="menuju" id="mhsw__5">Hija</td>
+      <td class="menuju" id="tempat__5">Brebes</td>
+      <td class="gerak menuju" id="hapus__5">Hapus</td>
+    </tr>
+  </table>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

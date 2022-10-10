@@ -1,0 +1,138 @@
+html{
+	font-family: Courier;
+}
+.klik {
+    color: white;
+    border: none;
+    pointer-events: none; 
+      cursor: default;
+    
+}
+.gwbae {
+    display: none;
+    background-color: white;
+    min-width: 200px;
+}
+body{
+	background-color: aliceblue;
+    background-size: cover;
+    background-attachment: fixed; 
+    color: lightgreen;
+    text-shadow: brown;
+}
+.urgn{
+	margin: 0 0 3px;
+	transition: 0.5s;
+	font-size: 40px;
+	font-weight: bold;
+}
+.lalu{
+	width: 10px;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 2px solid navy;
+	transition-duration: 0.2s;
+}
+
+@media only screen and (max-width: 800px){
+	.bako{
+		width: 100%;
+	}
+}
+
+span{
+	align-content: center;
+}
+img{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 10%;
+	padding: 3px;
+	transition: 0.5s;
+}
+
+.bako{
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+.luhur{
+	background-color: skyblue;
+	padding: 5px 10px 20px;
+	text-align: center;
+	border: 1px red;
+	border-radius: 5px 5px 0 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+p{
+	color: darkred;
+}
+.pentingsekali{
+    background-color: royalblue;
+    padding: 15px 0;
+}
+.hpbagus{
+	margin: 0;
+	padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+
+h2{
+	color: orangered;
+	margin: auto;
+}
+
+h2:hover{
+	color: purple;
+	letter-spacing: 3px;
+}
+
+.hpbagus:hover{
+	background-color: lightblue;
+}
+.aktif{
+	background-color: darkblue;
+}
+
+
+
+a{
+	color: navy;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+a:hover{
+	text-decoration: underline;
+	letter-spacing: 1px;
+}
+.gwbae a {
+    color: blue;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.tutt:hover .gwbae {
+    display: block;
+}
+.gigb{
+	background-color: ivory;
+	padding: 20px;
+	border-left: 1px darkgreen;
+	border-right: 1px darkgreen;
+   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
